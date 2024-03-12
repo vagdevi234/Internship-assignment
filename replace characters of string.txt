@@ -1,0 +1,18 @@
+public class GFG {
+	public static void main(String args[])
+	{
+		String str = "Learning";
+		int i = 6;
+		char c = 'F';
+		System.out.println("Original String = " + str);
+		StringBuilder string = new StringBuilder(str);
+		string.setCharAt(i, c);
+		System.out.println("Modified String = " + string);
+	}
+}
+
+
+OUTPUT:
+
+Original String = Learning
+Modified String = LearniFg
